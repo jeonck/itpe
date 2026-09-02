@@ -1,6 +1,6 @@
 # Hugo Hextra Theme Configuration and GitHub Pages Deployment Guide
 
-This document records the configuration settings applied during the construction of the `itpe-KM` knowledge base and deployment-related troubleshooting.
+This document records the configuration settings applied during the construction of the `itpe` knowledge base and deployment-related troubleshooting.
 
 ## 1. Project Overview
 - **Framework**: Hugo (Extended version)
@@ -104,7 +104,7 @@ Use the following command to verify changes locally:
 
 ```bash
 # Clone including theme submodule
-git clone --recursive https://github.com/jeonck/itpe-KM.git
+git clone --recursive https://github.com/jeonck/itpe.git
 
 # Run local server
 hugo server -D

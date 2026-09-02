@@ -7,7 +7,7 @@
     Free learning resources with 200+ topics across 8 areas including software engineering, networking, security, and algorithms,<br>
     organized with diagrams, tables, and key terms.
   </p>
-  <a href="/itpe-KM/docs/" style="display:inline-block; background:#1976D2; color:#fff; padding:0.75rem 2rem; border-radius:8px; font-weight:600; text-decoration:none; font-size:1rem; margin-bottom:1rem;">
+  <a href="docs/" style="display:inline-block; background:#1976D2; color:#fff; padding:0.75rem 2rem; border-radius:8px; font-weight:600; text-decoration:none; font-size:1rem; margin-bottom:1rem;">
     📚 Start Learning
   </a>
 </div>

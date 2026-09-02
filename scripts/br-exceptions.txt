@@ -1,0 +1,42 @@
+# Deliberate <br/> reductions, recorded so scripts/verify.sh can still enforce the rule
+# everywhere else.
+#
+# The Korean source labels many diagram nodes bilingually — `엔티티<br/>Entity`. Translating the
+# Korean half yields `Entity<br/>Entity`, which renders the same word on two lines. Where two
+# ADJACENT segments of one label are identical ignoring case, they were collapsed to one; the
+# later spelling is kept, since that is the repo's own English wording. Nothing else was
+# touched: no segment was shortened, reordered, merged across a non-duplicate boundary, or
+# dropped for length.
+#
+# Format: <path><TAB><number of <br/> removed in that file>
+content/docs/01-software-engineering/02-project-management/estimation.md	3
+content/docs/01-software-engineering/02-project-management/project-management.md	9
+content/docs/01-software-engineering/02-project-management/risk-management.md	2
+content/docs/01-software-engineering/03-requirements/requirements-engineering.md	4
+content/docs/01-software-engineering/04-analysis-design/uml.md	13
+content/docs/01-software-engineering/05-testing-quality/quality-standards.md	8
+content/docs/01-software-engineering/05-testing-quality/software-testing.md	11
+content/docs/01-software-engineering/06-maintenance/maintenance.md	3
+content/docs/01-software-engineering/06-maintenance/scm.md	4
+content/docs/01-software-engineering/07-modern-paradigm/ai-mlops.md	1
+content/docs/01-software-engineering/07-modern-paradigm/devops-cicd.md	2
+content/docs/02-database/01-fundamentals/data-modeling.md	6
+content/docs/02-database/01-fundamentals/normalization.md	6
+content/docs/02-database/01-fundamentals/relational-data-model.md	9
+content/docs/02-database/02-transaction/concurrency-control.md	3
+content/docs/02-database/02-transaction/transaction.md	5
+content/docs/02-database/04-ha-distributed/distributed-db.md	4
+content/docs/02-database/05-modern-architecture/big-data-architecture.md	2
+content/docs/02-database/05-modern-architecture/nosql.md	6
+content/docs/03-network/01-osi-model/osi-tcpip.md	1
+content/docs/05-computer-architecture/01-cpu-architecture/parallel-processing.md	7
+content/docs/05-computer-architecture/02-memory/cache-memory.md	3
+content/docs/05-computer-architecture/04-process-thread/cpu-scheduling.md	1
+content/docs/05-computer-architecture/06-memory-management/physical-memory.md	2
+content/docs/06-it-management/01-it-strategy/strategic-alignment.md	7
+content/docs/06-it-management/02-it-governance/it-governance-cobit.md	5
+content/docs/06-it-management/02-it-governance/itsm-itil.md	5
+content/docs/06-it-management/03-sourcing-strategy/it-sourcing.md	1
+content/docs/06-it-management/05-modern-paradigm/esg-green-it.md	4
+content/docs/07-emerging-tech/01-ai-llm/generative-ai-llm.md	1
+content/docs/07-emerging-tech/01-ai-llm/rag-finetuning.md	1

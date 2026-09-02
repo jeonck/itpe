@@ -1,0 +1,19 @@
+# Mermaid blocks that already fail to parse in the Korean source repo (jeonck/itpe-KM).
+# Regenerate with: node scripts/validate-mermaid.mjs <path-to-korean-src>
+#
+# Keyed as <path>#<n> — the n-th ```mermaid block in that file, 1-based. Line numbers are NOT
+# used: translation shifts them, which would silently un-baseline an entry.
+#
+# The five BUGFIX-* entries are deliberate: those documents demonstrate broken Mermaid syntax
+# and its fix, so the "before" snippets are supposed to be invalid.
+BUGFIX-MERMAID-ROADMAP-2ROW.md#2
+BUGFIX-MERMAID-ROADMAP-2ROW.md#3
+BUGFIX-MERMAID-ROADMAP-2ROW.md#5
+BUGFIX-MERMAID-SYNTAX.md#1
+BUGFIX-MERMAID-SYNTAX.md#2
+#
+# NOT baselined, recorded for provenance: content/docs/02-database/03-performance/
+# index-structure.md block #2 fails to parse in the Korean source — its three dotted edges read
+# `-. "label"-. -> L2`, where Mermaid needs `-. "label" .-> L2`. That is a genuine upstream
+# rendering bug, and it is FIXED in this repository (three edges, syntax only; node IDs, style
+# lines and <br/> counts unchanged). It should be fixed upstream too.

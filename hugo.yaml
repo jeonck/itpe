@@ -1,0 +1,57 @@
+baseURL: https://jeonck.github.io/itpe-KM-en/
+title: ITPE Knowledge Base
+theme: hextra
+
+locale: en
+languageCode: en-us
+defaultContentLanguage: en
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+        enable: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+
+params:
+  description: Knowledge base for the Korean Professional Engineer Information Management certification
+  navbar:
+    displayLogo: true
+    title: ITPE Knowledge Base
+    width: wide
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    width: wide
+  search:
+    enable: true
+    type: flexsearch
+  math:
+    enable: true
+  mermaid:
+    enable: true
+
+menu:
+  main:
+    - name: Docs
+      url: /docs/
+      weight: 10
+    - name: Search
+      weight: 20
+      params:
+        type: search
+    - name: Sponsor
+      url: https://github.com/sponsors/jeonck
+      weight: 30
+      params:
+        icon: heart

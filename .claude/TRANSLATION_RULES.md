@@ -1,6 +1,6 @@
 # TRANSLATION_RULES.md
 
-Korean → English translation rules for the ITPE Knowledge Base (`itpe-KM` → `itpe-KM-en`).
+Korean → English translation rules for the ITPE Knowledge Base (`jeonck/itpe-KM` → `jeonck/itpe`).
 
 **Read `GLOSSARY.md` in this same directory before translating anything.** Every term listed
 there has a fixed English equivalent. Do not invent synonyms for glossary terms.

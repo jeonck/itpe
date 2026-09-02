@@ -12,7 +12,7 @@ into English, so the material is usable by readers who do not read Korean.
 Built with [Hugo](https://gohugo.io/) and the [Hextra](https://github.com/imfing/hextra) theme,
 deployed to GitHub Pages.
 
-**Live site:** https://jeonck.github.io/itpe-KM-en/
+**Live site:** https://jeonck.github.io/itpe/
 
 ---
 
@@ -63,12 +63,12 @@ Every topic page follows the same three-part shape:
 Requires **Hugo extended ≥ 0.146** (the Hextra version pinned here needs it) and Git.
 
 ```bash
-git clone --recurse-submodules https://github.com/jeonck/itpe-KM-en.git
-cd itpe-KM-en
+git clone --recurse-submodules https://github.com/jeonck/itpe.git
+cd itpe
 hugo server -D
 ```
 
-Then open http://localhost:1313/itpe-KM-en/.
+Then open http://localhost:1313/itpe/.
 
 If you already cloned without `--recurse-submodules`, pull the theme in separately:
 
